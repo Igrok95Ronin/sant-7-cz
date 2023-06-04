@@ -14,12 +14,7 @@
     height: 100%;
 }
 .header__title {
-    background-color: $mainColor;
-    text-align: center;
-    color: #fff;
-    font-weight: 700;
-    padding: 10px;
-    font-size: clamp(32px,5vw,60px);
+    @include title;
 }
 .header__right {
     padding: 0 10px;

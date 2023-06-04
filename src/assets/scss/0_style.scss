@@ -70,3 +70,11 @@ $mainColor : #1866b5;
         color: #fff;
     }
 }
+@mixin title {
+    background-color: $mainColor;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    font-size: clamp(32px,5vw,60px);
+}
