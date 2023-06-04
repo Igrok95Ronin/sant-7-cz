@@ -1,0 +1,14 @@
+.forms {
+    padding: 0 0 20px;
+}
+.forms__box {
+    padding: 0 10px;
+}
+.forms__title {
+    @include title;
+    font-size: clamp(24px, 5vw, 35px);
+    text-align: left;
+}
+.forms__button {
+    @include btn;
+}
