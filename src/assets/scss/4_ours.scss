@@ -1,0 +1,24 @@
+.ours {
+    padding: 0 0 35px;
+}
+.ours__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.ours__left {
+}
+.ours__imgW {
+}
+.ours__img {
+    width: 100%;
+    height: 100%;
+}
+.ours__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ours__txt {
+    line-height: 26px;
+}
