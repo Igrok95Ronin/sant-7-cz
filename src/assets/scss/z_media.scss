@@ -1,3 +1,19 @@
+@media(max-width: 767px) {
+    .header__box,
+    .installationService__box,
+    .clogged__box,
+    .ours__box {
+        grid-template-columns: 1fr;
+    }
+    .header__ul {
+        margin-top: 10px;
+    }
+    .installationService__txt,
+    .clogged__txt,
+    .ours__txt {
+        padding: 0 10px;
+    }
+}
 @media(max-width: 500px) {
     .btnFixedD {
         display: none;
